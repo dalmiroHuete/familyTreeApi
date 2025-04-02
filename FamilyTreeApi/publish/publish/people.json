@@ -1,0 +1,79 @@
+[
+  {
+    "id": "b4cd5643-dfae-5a6a-9f03-ec13ec73a653",
+    "givenName": "Jane",
+    "surname": "Doe",
+    "gender": "Female",
+    "birthDate": "1877-01-01",
+    "birthLocation": "London",
+    "deathDate": "1941-01-01",
+    "deathLocation": "London",
+    "treeId": "tree1"
+  },
+  {
+    "id": "c32b846d-134e-5cd0-b465-07f252c9616b",
+    "givenName": "Oliver",
+    "surname": "Smith",
+    "gender": "Male",
+    "birthDate": null,
+    "birthLocation": "Manchester",
+    "deathDate": "1910-01-01",
+    "deathLocation": "Manchester",
+    "treeId": "tree1"
+  },
+  {
+    "id": "e385e979-38dd-51b6-86e7-db1f6457adcf",
+    "givenName": "Emily",
+    "surname": "Atkinson",
+    "gender": "Female",
+    "birthDate": "1990-01-01",
+    "birthLocation": "Liverpool",
+    "deathDate": null,
+    "deathLocation": null,
+    "treeId": "tree1"
+  },
+  {
+    "id": "f28d6712-a21e-4a12-aaf1-d35a32d4ec1f",
+    "givenName": "William",
+    "surname": "Hart",
+    "gender": "Male",
+    "birthDate": "1901-01-01",
+    "birthLocation": "York",
+    "deathDate": null,
+    "deathLocation": null,
+    "treeId": "tree1"
+  },
+  {
+    "id": "a52dff20-417f-4978-8e49-7f7d8c0b938f",
+    "givenName": "Lucía",
+    "surname": "Ramírez",
+    "gender": "Female",
+    "birthDate": "2000-01-01",
+    "birthLocation": "San José",
+    "deathDate": null,
+    "deathLocation": null,
+    "treeId": "tree2"
+  },
+  {
+    "id": "cd60f730-cdfa-4128-a3ff-9b6db3b8e1fb",
+    "givenName": "Miguel",
+    "surname": "Chávez",
+    "gender": "Male",
+    "birthDate": "1875-01-01",
+    "birthLocation": "Cartago",
+    "deathDate": "1942-01-01",
+    "deathLocation": "Cartago",
+    "treeId": "tree2"
+  },
+  {
+    "id": "d8f1bfa6-3025-4869-931f-1fd5e0aa96e2",
+    "givenName": "Isabel",
+    "surname": "Chávez",
+    "gender": "Female",
+    "birthDate": null,
+    "birthLocation": "Heredia",
+    "deathDate": null,
+    "deathLocation": null,
+    "treeId": "tree2"
+  }
+]
