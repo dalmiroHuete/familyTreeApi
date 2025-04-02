@@ -1,7 +1,7 @@
 
 # FamilyTreeApi
 
-An ASP.NET Core Web API for managing family tree records using a local JSON file. The project is containerized with Docker and deployed manually to AWS Elastic Beanstalk.
+An ASP.NET Core Web API for managing family tree records using a local JSON file. The project is containerized with Docker and deployed to AWS Elastic Beanstalk.
 
 ---
 
