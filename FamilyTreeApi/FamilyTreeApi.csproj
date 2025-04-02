@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="publish\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="publish\appsettings.json" />
+      <_ContentIncludedByDefault Remove="publish\FamilyTreeApi.deps.json" />
+      <_ContentIncludedByDefault Remove="publish\FamilyTreeApi.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="publish\FamilyTreeApi.staticwebassets.endpoints.json" />
+      <_ContentIncludedByDefault Remove="publish\people.json" />
+    </ItemGroup>
+
+</Project>
