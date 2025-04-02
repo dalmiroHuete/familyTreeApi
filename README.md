@@ -54,10 +54,19 @@ API will be available at: `http://localhost:5000`
 
 ### Option 2: Using Docker
 
-```bash
-docker build -t familytree-api .
-docker run -p 5000:5000 familytree-api
-```
+ ```bash
+dotnet publish -c Release -o publish
+cp Dockerfile people.json publish/
+cd publish
+ docker build -t familytree-api .
+ docker run -p 8080:5000 familytree-api
+ ```
+Access to the api :
+http://localhost:8080/api/people
+
+Remember to add the respective header to the call : x-client-id
+
+
 
 ---
 
@@ -74,8 +83,8 @@ docker run -p 5000:5000 familytree-api
 2. This will generate a deploy.zip file
 
 3. Go to AWS Elastic Beanstalk Console:
-    - Create/select a Docker environment.
-    - Upload and deploy the new `deploy.zip` package.
+   - Create/select a Docker environment.
+   - Upload and deploy the new `deploy.zip` package.
 
 ---
 
