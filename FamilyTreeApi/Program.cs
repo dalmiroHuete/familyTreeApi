@@ -34,9 +34,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseMiddleware<ClientIdMiddleware>();
-
 app.UseCors("AllowAll");
+
+app.UseMiddleware<ClientIdMiddleware>();
 
 app.MapControllers();
 app.Run();
