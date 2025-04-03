@@ -2,9 +2,10 @@ namespace FamilyTreeApi.Middleware;
 
 public class ClientIdMiddleware
 {
-    private readonly RequestDelegate _next;
+    // TODO : MOVE THIS TO SECRET , PARAMETER STORE ETC , THE VALUE IS HARDCODED BECAUSE IS NOT A REAL APP
     private const string ValidClientId = "my-secret-client-id";
-
+    private readonly RequestDelegate _next;
+    
     public ClientIdMiddleware(RequestDelegate next)
     {
         _next = next;

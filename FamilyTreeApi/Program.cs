@@ -8,6 +8,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+// TODO : THIS CODE IS HERE BECAUSE IS NOT A REAL APP FOR PROD REMOVE THE ALLOW_ALL AND CREATE A WHITE_LIST
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
+
 builder.Services.AddControllers();
 builder.Services.AddSingleton<IPersonRepository, PersonRepository>();
 builder.Services.AddScoped<PeopleService>();
@@ -22,5 +35,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseMiddleware<ClientIdMiddleware>();
+
+app.UseCors("AllowAll");
+
 app.MapControllers();
 app.Run();
