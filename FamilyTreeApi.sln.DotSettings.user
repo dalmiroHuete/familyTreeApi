@@ -1,3 +1,31 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AControllerBase_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fc7afd9724cf757c4a8469dba2bdc22ab5ac111c91f431dbfefc992dacb3e8635_003FControllerBase_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AOpenApiEndpointRouteBuilderExtensions_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fcb89aa36653facf3c76dc46203ea9076e985f8e30c3ea33be6ddcd1f11cbd_003FOpenApiEndpointRouteBuilderExtensions_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AOpenApiEndpointRouteBuilderExtensions_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fcb89aa36653facf3c76dc46203ea9076e985f8e30c3ea33be6ddcd1f11cbd_003FOpenApiEndpointRouteBuilderExtensions_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=05a5b976_002Dcc96_002D448d_002D8815_002D99f351835f72/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetPeopleByTreeId_ThrowsNotFound_WhenEmpty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::79D07B9F-D84F-497C-9C1E-A6F38C519C94::net9.0::FamilyTreeApi.Tests.Services.PeopleServiceTests.GetPeopleByTreeId_ThrowsNotFound_WhenEmpty&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0f5456ef_002D42d3_002D43ba_002D8024_002D64c10f98da0f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from PeopleServiceTest.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;79D07B9F-D84F-497C-9C1E-A6F38C519C94/d:Services/f:PeopleServiceTest.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=20caeb43_002D8d18_002D4778_002D8349_002D847cd5770b46/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PeopleServiceTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::79D07B9F-D84F-497C-9C1E-A6F38C519C94::net9.0::FamilyTreeApi.Tests.Services.PeopleServiceTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=26eee5e4_002D8c46_002D430f_002Dbfca_002Dc7306e4db792/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PeopleServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::79D07B9F-D84F-497C-9C1E-A6F38C519C94::net9.0::FamilyTreeApi.Tests.Services.PeopleServiceTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=58756583_002Df4d2_002D4fdd_002D896c_002Dd269bcd678a8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetPeopleByTreeId_ThrowsNotFound_WhenEmpty #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::79D07B9F-D84F-497C-9C1E-A6F38C519C94::net9.0::FamilyTreeApi.Tests.Services.PeopleServiceTests.GetPeopleByTreeId_ThrowsNotFound_WhenEmpty&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dc5befd9_002D54d8_002D4ea0_002Db673_002D30dd665a6e18/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetPeopleByTreeId_ThrowsNotFound_WhenEmpty #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::79D07B9F-D84F-497C-9C1E-A6F38C519C94::net9.0::FamilyTreeApi.Tests.Services.PeopleServiceTests.GetPeopleByTreeId_ThrowsNotFound_WhenEmpty&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
