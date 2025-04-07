@@ -1,5 +1,7 @@
 using FamilyTreeApi.Data;
+using FamilyTreeApi.Exceptions;
 using FamilyTreeApi.Models;
+using FamilyTreeApi.Utils.Constants;
 
 namespace FamilyTreeApi.Services;
 
@@ -15,6 +17,10 @@ public class PeopleService
     public IEnumerable<PersonDto> GetPeopleByTreeId(string treeId)
     {
         var people = personRepository.GetByTreeId(treeId);
+
+        if (!people.Any())
+            throw new NotFoundException(ErrorMessages.NotFound);
+            
         return people.Select(p => new PersonDto
         {
             Value = p.Id,
